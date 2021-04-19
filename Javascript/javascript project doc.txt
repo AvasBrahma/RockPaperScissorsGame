@@ -1,0 +1,5 @@
+
+
+  Javascript checl: console.log("Hello world");   ---->>> inspect and check console if there is hello world or not.
+
+

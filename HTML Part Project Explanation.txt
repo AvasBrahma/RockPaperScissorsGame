@@ -1,0 +1,9 @@
+
+
+  Classes are cool because we can share same style to those two <div> with the same class name.
+  For Uniquely positioning the classes with the same name we can used IDs.
+
+ -> Span is an inline element, div is an block level element.
+
+
+  Before adding any Style, Make sure you link it with the HTML Page.

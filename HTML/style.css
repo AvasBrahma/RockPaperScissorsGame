@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background: white;
+}
+
+header > h1 {
+      color:#25272E;
+      text-align: center;
+      font-family: Asap, sans-serif ;
+}
+
+.score-title{
+    margin: 5px 0;
+    font-size: 30px;
+    color: white;
+}
+.score-title > p{
+    text-align: center;
+    font-family: fantasy;
+}
+
+.score-board{
+    margin: 8px auto;
+    border: 3px solid white;
+    width: 200px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    padding: 15px 20px;
+    font-family: fantasy;
+    position: relative;
+}
+
+
+
+.badge{
+    background: tomato;
+    color: white;
+    font-size: 15px;
+    padding: 2px 10px;
+    font-family:fantasy;
+}
+
+
+#user-level{
+
+    position: absolute;
+    top: 30px;
+    left: -25px;
+
+
+}
+
+
+#computer-level{
+
+    position: absolute;
+    top: 30px;
+    right: -30px;
+
+
+}
+
+
+.result{
+font-size: 40px;
+color: white;
+}
+.result > p{
+    margin: 20px 0;
+   text-align: center;
+   font-weight: bold;
+   font-family: fantasy;
+}
+
+.choices{
+    margin: 50px 0;
+    text-align: center;
+}
+
+.choice{
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px;
+    transition: all 0.3s ease;
+
+}
+
+.choice:hover{
+    cursor: pointer;
+    background:tomato;
+}
+
+
+#action-message{
+
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+    font-size: 30px;
+}
